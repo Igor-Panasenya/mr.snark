@@ -110,6 +110,15 @@ footer .container .footer-box .footer-contact .contact-forms button {
     margin-top: 50px;
     margin-bottom: 20px;
   }
+  footer .container .footer-box .footer-content .footer-links .footer-socials-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--color-second);
+  }
+  footer .container .footer-box .footer-content .footer-links .pages {
+    margin-left: 40px;
+  }
   footer .container .footer-box .footer-contact {
     width: 100%;
   }

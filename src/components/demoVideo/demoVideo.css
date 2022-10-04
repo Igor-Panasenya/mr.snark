@@ -15,7 +15,10 @@
 .demoVideo .demoVideo-content .demoVideo-box {
   width: 415px;
   height: 540px;
-  border: teal solid 1px;
+}
+.demoVideo .demoVideo-content .demoVideo-box video {
+  width: 415px;
+  height: 540px;
 }
 .demoVideo .demoVideo-content .demoVideo-text {
   max-width: 415px;
@@ -80,7 +83,6 @@
   .demoVideo .demoVideo-content .demoVideo-box {
     width: 90%;
     height: auto;
-    border: teal solid 1px;
   }
   .demoVideo .demoVideo-content .demoVideo-text {
     max-width: 415px;

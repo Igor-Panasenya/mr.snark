@@ -20,7 +20,7 @@ const Header = () => {
                         <li><a href="#DemoVideo">Demo Video</a></li>
                         <li><a href="#Partners">Partners</a></li>
                         <li><a href="#Features">Features</a></li>
-                        <li><a href="#Testimonials">Testimonials</a></li>
+                        {/*<li><a href="#Testimonials">Testimonials</a></li>*/}
                         <li><a href="#FAQ">FAQ</a></li>
                     </ul>
                     <button className="join">join now</button>
@@ -30,7 +30,7 @@ const Header = () => {
                         <li onClick={() => {setIsActiveHamburger(!isActiveHamburger)}}><a href="#DemoVideo">Demo Video</a></li>
                         <li onClick={() => {setIsActiveHamburger(!isActiveHamburger)}}><a href="#Partners">Partners</a></li>
                         <li onClick={() => {setIsActiveHamburger(!isActiveHamburger)}}><a href="#Features">Features</a></li>
-                        <li onClick={() => {setIsActiveHamburger(!isActiveHamburger)}}><a href="#Testimonials">Testimonials</a></li>
+                        {/*<li onClick={() => {setIsActiveHamburger(!isActiveHamburger)}}><a href="#Testimonials">Testimonials</a></li>*/}
                         <li onClick={() => {setIsActiveHamburger(!isActiveHamburger)}}><a href="#FAQ">FAQ</a></li>
                     </ul>
                     <button onClick={() => setIsActiveHamburger(!isActiveHamburger)} className={isActiveHamburger ? "join-xs active" : "join-xs"}>join now</button>

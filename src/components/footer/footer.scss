@@ -130,6 +130,21 @@ footer {
         .footer-content {
           margin-top: 50px;
           margin-bottom: 20px;
+
+          .footer-links {
+
+            .footer-socials-links {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              color: var(--color-second);
+            }
+
+            .pages {
+              margin-left: 40px;
+            }
+          }
+
         }
         .footer-contact {
           width: 100%;

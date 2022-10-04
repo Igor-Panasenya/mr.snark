@@ -1,5 +1,6 @@
 import React from 'react';
 import './demoVideo.scss';
+import video from '../../img/DemoVideoMain.7369340a.mp4';
 
 const DemoVideo = () => {
     return (
@@ -11,7 +12,9 @@ const DemoVideo = () => {
                 </div>
 
                 <div className="demoVideo-content">
-                    <div className="demoVideo-box"></div>
+                    <div className="demoVideo-box">
+                        <video controls src={video}></video>
+                    </div>
                     <div className="demoVideo-text">
                         <h3 className="text-title">
                             On-Chain Analytics. Fundamental <br/> Screening. Signals. Intelligent News. <br/> Collaboration.
