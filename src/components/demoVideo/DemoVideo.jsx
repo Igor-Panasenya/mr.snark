@@ -1,6 +1,6 @@
 import React from 'react';
 import './demoVideo.scss';
-import video from '../../img/DemoVideoMain.7369340a.mp4';
+import video from '../../img/DemoVideoMain.mp4';
 
 const DemoVideo = () => {
     return (
