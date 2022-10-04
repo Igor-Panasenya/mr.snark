@@ -1,6 +1,6 @@
 import React from 'react';
 import './demoVideo.scss';
-import video from '../../img/DemoVideoMain.mp4';
+import video from '../../img/demovideomain.mp4';
 
 const DemoVideo = () => {
     return (
@@ -12,8 +12,11 @@ const DemoVideo = () => {
                 </div>
 
                 <div className="demoVideo-content">
+
                     <div className="demoVideo-box">
-                        <video controls src={video}></video>
+                        <video width="100%" height="100%" controls="">
+                            <source src={video} type="video/mp4"/>
+                        </video>
                     </div>
                     <div className="demoVideo-text">
                         <h3 className="text-title">
