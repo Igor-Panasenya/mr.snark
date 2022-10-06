@@ -78,5 +78,13 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 300px) {
+  .partners-area .container .partners-box .partner-clients .partner-clients-item {
+    padding: 20px 10px;
+  }
+  .partners-area .container .partners-box .partner-clients .partner-clients-item img {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=partners.css.map */

@@ -92,13 +92,18 @@
 
 @media screen and (max-width: 600px) {
   .demoVideo {
-    padding: 10px 0;
+    padding: 100px 0;
 
     .demoVideo-content {
 
       .demoVideo-box {
         width: 90%;
         height: auto;
+
+        video {
+          width: 100%;
+          height: auto;
+        }
       }
       .demoVideo-text {
         max-width: 415px;

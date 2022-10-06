@@ -78,10 +78,14 @@
 }
 @media screen and (max-width: 600px) {
   .demoVideo {
-    padding: 10px 0;
+    padding: 100px 0;
   }
   .demoVideo .demoVideo-content .demoVideo-box {
     width: 90%;
+    height: auto;
+  }
+  .demoVideo .demoVideo-content .demoVideo-box video {
+    width: 100%;
     height: auto;
   }
   .demoVideo .demoVideo-content .demoVideo-text {

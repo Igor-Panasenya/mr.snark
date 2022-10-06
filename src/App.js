@@ -13,18 +13,15 @@ function App() {
 
   const [isActiveVideo, setIsActiveVideo] = useState(false);
 
-
-
   return (
     <div className={isActiveVideo ? "App no-scroll" : "App"}>
       <Header />
-
         <main>
           <Banner isActiveVideo={isActiveVideo} setIsActiveVideo={setIsActiveVideo}/>
           <DemoVideo />
           <Partners />
           <Features />
-          {/*<Testimonials />*/}
+          <Testimonials />
           <FAQ />
           <Download />
         </main>

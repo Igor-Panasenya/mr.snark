@@ -109,3 +109,20 @@
     }
   }
 }
+
+@media screen and (max-width: 300px) {
+  .partners-area {
+    .container {
+      .partners-box {
+        .partner-clients {
+          .partner-clients-item {
+            padding: 20px 10px;
+            img {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
