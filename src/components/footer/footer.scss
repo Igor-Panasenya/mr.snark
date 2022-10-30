@@ -31,9 +31,6 @@ footer {
             color: var(--color-second);
           }
 
-          .pages {
-            margin-left: 270px;
-          }
         }
       }
       .footer-contact {
@@ -52,29 +49,42 @@ footer {
           grid-row-gap: 12px;
           margin-top: 40px;
 
-          .input {
-            padding: 13px 20px;
-            background-color: #333;
-            font-weight: 400;
-            color: var(--color-main);
+          label {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
 
-            &:focus {
-              background-color: #191919
+            .input {
+              width: 100%;
+              padding: 13px 20px;
+              background-color: #333;
+              font-weight: 400;
+              color: var(--color-main);
+
+              &:focus {
+                background-color: #191919
+              }
+              &::placeholder {
+                color: var(--color-second);
+              }
             }
-            &::placeholder {
-              color: var(--color-second);
+
+            .input-message {
+              grid-column-start: 1;
+              grid-column-end: 3;
+
+              resize: vertical;
+              min-height: 60px;
             }
           }
+
+
           .input-message {
             grid-column-start: 1;
             grid-column-end: 3;
 
             resize: vertical;
             min-height: 60px;
-          }
-          button {
-            width: 70%;
-            margin-top: 15px;
           }
         }
       }
@@ -138,10 +148,6 @@ footer {
               flex-direction: column;
               gap: 5px;
               color: var(--color-second);
-            }
-
-            .pages {
-              margin-left: 40px;
             }
           }
 

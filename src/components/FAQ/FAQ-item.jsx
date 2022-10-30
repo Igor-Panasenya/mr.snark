@@ -22,12 +22,12 @@ const FaqItem = ({item}) => {
         <li ref={sortRef} onClick={() => {setIsActiveItem(!isActiveItem)}}
             className={isActiveItem ? "FAQ-item active" : "FAQ-item"}
         >
-            <div className="No">{item.No}</div>
-            <div className="question">{item.title}</div>
-            <div className="arrow"><img src={arrow} alt="arrow"/></div>
-            <div className="answer">
-                {item.body}
+            <div className="main">
+                <div className="No"> {item.No} </div>
+                <div className="question"> {item.title} </div>
+                <div className="arrow"><img src={arrow} alt="arrow"/></div>
             </div>
+            <div className="answer"> {item.body} </div>
 
         </li>
     );

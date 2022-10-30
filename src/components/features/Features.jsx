@@ -16,13 +16,13 @@ const Features = () => {
         <section id="Features" className="features">
             <div className="container">
                 <div className="features-title">
-                    <h6>FEATURES</h6>
-                    <h2>Try 7 days for free, then $8.99/mo <br/>
+                    <h6 data-aos="fade-up">FEATURES</h6>
+                    <h2 data-aos="fade-up" data-aos-delay="150">Try 7 days for free, then $8.99/mo <br/>
                         <span>($89.99 annual)</span>
                     </h2>
                 </div>
 
-                <ul className="feature-list">
+                <ul className="feature-list" data-aos="fade-up" data-aos-delay="150">
                     <li className="feature-list-item">
                         <div className="item-title">
                             <span>01</span>

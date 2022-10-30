@@ -29,9 +29,6 @@ footer .container .footer-box .footer-content .footer-links .footer-socials-link
   gap: 5px;
   color: var(--color-second);
 }
-footer .container .footer-box .footer-content .footer-links .pages {
-  margin-left: 270px;
-}
 footer .container .footer-box .footer-contact {
   width: 50%;
 }
@@ -47,27 +44,35 @@ footer .container .footer-box .footer-contact .contact-forms {
   grid-row-gap: 12px;
   margin-top: 40px;
 }
-footer .container .footer-box .footer-contact .contact-forms .input {
+footer .container .footer-box .footer-contact .contact-forms label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer .container .footer-box .footer-contact .contact-forms label .input {
+  width: 100%;
   padding: 13px 20px;
   background-color: #333;
   font-weight: 400;
   color: var(--color-main);
 }
-footer .container .footer-box .footer-contact .contact-forms .input:focus {
+footer .container .footer-box .footer-contact .contact-forms label .input:focus {
   background-color: #191919;
 }
-footer .container .footer-box .footer-contact .contact-forms .input::placeholder {
+footer .container .footer-box .footer-contact .contact-forms label .input::placeholder {
   color: var(--color-second);
+}
+footer .container .footer-box .footer-contact .contact-forms label .input-message {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  resize: vertical;
+  min-height: 60px;
 }
 footer .container .footer-box .footer-contact .contact-forms .input-message {
   grid-column-start: 1;
   grid-column-end: 3;
   resize: vertical;
   min-height: 60px;
-}
-footer .container .footer-box .footer-contact .contact-forms button {
-  width: 70%;
-  margin-top: 15px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -115,9 +120,6 @@ footer .container .footer-box .footer-contact .contact-forms button {
     flex-direction: column;
     gap: 5px;
     color: var(--color-second);
-  }
-  footer .container .footer-box .footer-content .footer-links .pages {
-    margin-left: 40px;
   }
   footer .container .footer-box .footer-contact {
     width: 100%;

@@ -40,15 +40,15 @@ const Faq = () => {
     return (
         <section id="FAQ" className="FAQ">
             <div className="container">
-                <div className="FAQ-title">
+                <div className="FAQ-title" data-aos="fade-up" data-aos-delay="150">
                     <h6>FAQ</h6>
                     <h2>Find information people ask about the most</h2>
                 </div>
 
-                <ul className="FAQ-list">
+                <ul className="FAQ-list" data-aos="fade-up">
 
-                    {FAQList.map(item =>
-                        <FaqItem key={item.No} item={item} />
+                    {FAQList.map((item, index) =>
+                        <FaqItem key={item.No} item={item}/>
                     )}
                 </ul>
             </div>

@@ -35,7 +35,6 @@
   border-radius: 5px;
   border: solid 1px #383838;
   overflow: hidden;
-  transition: var(--transition);
 }
 .banner-space .banner .container .banner-content .banner-video-btn:hover {
   transform: translateY(-3px);

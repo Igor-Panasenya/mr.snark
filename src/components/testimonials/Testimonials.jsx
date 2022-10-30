@@ -16,7 +16,7 @@ const Testimonials = () => {
     return (
         <section id="Testimonials" className="testimonials-area">
             <div className="container">
-                <h6>TESTIMONIALS</h6>
+                <h6 data-aos="fade-up">TESTIMONIALS</h6>
 
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -28,12 +28,13 @@ const Testimonials = () => {
                     }}
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
+                    data-aos="fade-up" data-aos-delay="150"
                 >
                     <SwiperSlide><img src={slide1} alt="testimonials"/></SwiperSlide>
                     <SwiperSlide><img src={slide2} alt="testimonials"/></SwiperSlide>
                 </Swiper>
 
-                <div className="testimonials-text">
+                <div className="testimonials-text" data-aos="fade-up" data-aos-delay="300">
                     <span>Paola Origel</span>
                     <p>General Partner @ Chainlink Capital <br/>
                         #1 Performing Crypto Fund Of Funds For 2021</p>

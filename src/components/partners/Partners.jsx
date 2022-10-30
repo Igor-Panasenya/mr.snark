@@ -9,10 +9,10 @@ const Partners = () => {
         <section id="Partners" className="partners-area">
             <div className="container">
                 <div className="partners-box">
-                    <h6>OUR PARTNERS</h6>
-                    <h2>Powered by premium data partners used by leading crypto institutional funds</h2>
+                    <h6 data-aos="fade-up">OUR PARTNERS</h6>
+                    <h2 data-aos="fade-up" data-aos-delay="150">Powered by premium data partners used by leading crypto institutional funds</h2>
 
-                    <div className="partner-clients">
+                    <div className="partner-clients" data-aos="fade-up" data-aos-delay="300">
                         <div className="partner-clients-item">
                             <img src={client_1} alt="client"/>
                         </div>
